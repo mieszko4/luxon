@@ -1048,7 +1048,7 @@ export default class DateTime {
   /**
    * Get the week year
    * @see https://en.wikipedia.org/wiki/ISO_week_date
-   * @example DateTime.local(2014, 11, 31).weekYear //=> 2015
+   * @example DateTime.local(2014, 12, 31).weekYear //=> 2015
    * @type {number}
    */
   get weekYear() {
@@ -1069,7 +1069,7 @@ export default class DateTime {
    * Get the day of the week.
    * 1 is Monday and 7 is Sunday
    * @see https://en.wikipedia.org/wiki/ISO_week_date
-   * @example DateTime.local(2014, 11, 31).weekday //=> 4
+   * @example DateTime.local(2014, 10, 30).weekday //=> 4
    * @type {number}
    */
   get weekday() {
